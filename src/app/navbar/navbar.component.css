@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-notification {
+  background: none !important;
+  color: #0c1116;
+  box-shadow: none !important;
+  border: 1px solid Gray;
+  height: 50px;
+  width: 50px;
+}

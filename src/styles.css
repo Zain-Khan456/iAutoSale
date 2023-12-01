@@ -1,4 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: var(--gray-50, #fafafa);
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.universal-button {
+  display: flex;
+  padding: 12px 12px 12px 20px;
+  height: 50px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  background: var(--primary-blue-500, #4040f2);
+}
