@@ -4,20 +4,54 @@
 }
 
 .logo {
-  color: var(--Light-Lines-Color, #f1f1f1);
   font-family: General Sans;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   width: 100%;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--Light-Lines-Color, #f1f1f1);
 }
 
 .logo span {
   color: var(--Primary-Blue-Color, #4040f2);
 }
 
-.nav-btn.active {
-  background-color: #f0f0f0; /* Change this to your preferred hover color */
-  /* Add any other styles to indicate it's the active button */
+.sidenav-btns {
+  cursor: pointer;
+}
+
+.sidenav-btns a {
+  color: var(--primary-blue-50, #f7f7fb);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none !important;
+  width: 100%;
+}
+
+.sidenav-icons {
+  width: 40px;
+}
+
+.sidenav-btns svg {
+  margin-right: 15px;
+}
+
+.sidenav-btns a:hover {
+  background: #242d35;
+}
+
+.sidenav-btns a.active {
+  background: #242d35;
+  text-decoration: none !important;
 }
